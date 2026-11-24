@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+venv/
+.venv/
+env/
+
+# Python bytecode & build folders
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Runtime generated files & MediaPipe model
+captured_equation.png
+plotted_graph.png
+hand_landmarker.task
+
+# Editor & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
